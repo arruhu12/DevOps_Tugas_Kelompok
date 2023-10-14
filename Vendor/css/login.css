@@ -1,0 +1,81 @@
+*{
+	font-family: 'Oswald', sans-serif;	
+}
+
+body{
+	margin:0 auto;
+	background-image: url('smkn9medan.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*---------------CONTAINER-------------*/
+.container{
+	margin-top: 160px;
+	margin-left:70px;
+    padding: 0;
+	background-color: white;
+	width: 376px;
+    height: 430px;
+	border-radius:10px; 
+}
+
+/*--------PANEL-------------*/
+
+.panel{/*
+	font-family: Barbarian;*/
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top:-42px;
+	height: 130px;
+	background-color: #0984e3;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+.panel h3{
+	text-align: center;
+	padding-top:35px;
+	text-shadow: 
+	color: white;
+}
+
+label{
+	color: #656565 !important;
+	font-size:18px !important;
+}
+
+.form{
+	font-family: 'Oswald', sans-serif;
+	padding: 20px;
+}
+
+input[type=text],input[type=password]{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 30px !important;
+	text-indent: 7px;
+}
+.main{
+	margin-top: 10px;
+}
+
+.main .btn{
+	background-image: linear-gradient(90deg,#43b7f0,#3554ae) !important;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 120px;
+	transition: 0.5s;
+	margin-left: 20px;
+}
+
+.main .btn:hover{
+	background-image: linear-gradient(90deg,#3554ae,#43b7f0) !important;
+}
+.chk{
+	padding:8px;
+}
+
+span{
+	color: black;
+}

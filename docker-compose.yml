@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=db_spp
+
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=db_spp
+    volumes:
+      - ./Database/db_spp.sql:/docker-entrypoint-initdb.d/db_spp.sql
