@@ -107,7 +107,7 @@
               include 'open_file.php';
               ?>
             </div> 
-            <div class="card-footer">Created By Suzata Dewi @ SMK Negeri 9 Medan</div>
+            <div class="card-footer">Created For UKK @ SMK Negeri 9 Medan</div>
           </div>
 
         </div>
